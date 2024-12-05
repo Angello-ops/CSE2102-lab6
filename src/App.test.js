@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { calculateScore } from './controllers/ScoringController';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('calculateScore should return correct score', () => {
+  const questions = [
+    { correctAnswer: 'A' },
+    { correctAnswer: 'B' },
+    { correctAnswer: 'C' },
+  ];
+  const userAnswers = ['A', 'B', 'D'];
+  const score = calculateScore(questions, userAnswers);
+  expect(score).toBe(2); // Two correct answers
 });

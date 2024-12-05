@@ -1,16 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Quiz from './components/Quiz.js';
+import React, { useState } from 'react';
+import Quiz from './components/Quiz';
+import AboutPage from './components/AboutPage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       <Quiz />
-       
-      </header>
-    </div>
-  );
-}
+//adde a bottle to nagivate both the quiz and about page
+const App = () => {
+    const [page, setPage] = useState('quiz');
+
+    return (
+        <div>
+            <nav style={{ marginBottom: "20px", textAlign: "center" }}>
+                <button onClick={() => setPage('quiz')}>Quiz</button>
+                <button onClick={() => setPage('about')}>About</button>
+            </nav>
+            {page === 'quiz' ? <Quiz /> : <AboutPage />}
+        </div>
+    );
+};
 
 export default App;

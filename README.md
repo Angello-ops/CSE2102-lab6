@@ -69,3 +69,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# 2024_simple_quiz" 
+
+# Quiz Application
+
+## Overview
+This React-based quiz application includes:
+- Refactored scoring logic for maintainability.
+- Improved user experience with dynamic questions and clean UI.
+
+## Features
+- **Dynamic Questions**: Rendered from `basic_questions.json`.
+- **Scoring**: Final score displayed upon submission.
+- **Auto-Reset**: Resets after submission for retaking the quiz.
+- **Responsive Design**: Styled for modern, clean UI.
+
+## Directions to Run
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   npm test
+   npm start
+
+   paste the following link to your desire'd browser's url http://localhost:3000
