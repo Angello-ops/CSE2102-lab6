@@ -90,4 +90,4 @@ This React-based quiz application includes:
    npm test
    npm start
 
-   paste the following link to your desire'd browser's url http://localhost:3000
+   paste the following link to your desired browser's url http://localhost:3000
