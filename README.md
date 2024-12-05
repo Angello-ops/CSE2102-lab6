@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# 2024_simple_quiz" 
 
-# Quiz Application
+# Quiz Application changes
 
 ## Overview
 This React-based quiz application includes:
@@ -82,12 +82,3 @@ This React-based quiz application includes:
 - **Scoring**: Final score displayed upon submission.
 - **Auto-Reset**: Resets after submission for retaking the quiz.
 - **Responsive Design**: Styled for modern, clean UI.
-
-## Directions to Run
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   npm test
-   npm start
-
-   paste the following link to your desired browser's url http://localhost:3000
